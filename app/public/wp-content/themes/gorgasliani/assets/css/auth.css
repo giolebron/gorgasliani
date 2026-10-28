@@ -1,0 +1,137 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e7c397;
+  padding: 20px;
+}
+
+/* Shared layout for both login and register */
+.auth-login,
+.auth-register {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-login h1,
+.auth-register h1 {
+  font-size: 28px;
+  color: #090808;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.auth-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #666;
+}
+
+.auth-input-box input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #090808;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.auth-btn:hover {
+  background-color: #333;
+}
+
+.auth-register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-register-link span {
+  cursor: pointer;
+  color: #4e8eff;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.status {
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.status.error {
+  background: #ffe5e5;
+  color: #900;
+}
+
+.status.success {
+  background: #e6f7e6;
+  color: #1a7f1a;
+}
+
+@media (max-width: 480px) {
+  .auth-login,
+  .auth-register {
+    padding: 30px 20px;
+  }
+
+  .auth-login h1,
+  .auth-register h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .auth-login,
+  .auth-register {
+    max-width: 500px;
+    padding: 50px 40px;
+  }
+
+  .auth-input-box input {
+    font-size: 18px;
+  }
+
+  .auth-btn {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .auth-login h1,
+  .auth-register h1 {
+    font-size: 32px;
+  }
+}

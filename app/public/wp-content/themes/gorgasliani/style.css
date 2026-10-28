@@ -1,0 +1,23 @@
+/*
+Theme Name: Gorgasliani
+Theme URI: https://chkharto.github.io/gorgasliani/
+Author: me
+Description: A responsive history website theme with a left sidebar and fancy styling.
+Version: 1.0
+Tags: left-sidebar, responsive, fancy, custom-menu, custom-logo, featured-images
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gorgasliani
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e7c397;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}

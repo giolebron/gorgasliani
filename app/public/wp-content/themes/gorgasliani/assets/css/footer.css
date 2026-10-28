@@ -1,0 +1,36 @@
+.footer {
+  background-color: #fff;
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav ul li {
+  margin-right: 50px;
+}
+
+.footer-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+  color: #858585;
+}
